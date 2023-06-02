@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &25282297319547038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25282297319547039}
+  - component: {fileID: 25282297319547035}
+  - component: {fileID: 25282297319547034}
+  - component: {fileID: 25282297319547033}
+  - component: {fileID: 25282297319547032}
+  m_Layer: 0
+  m_Name: Button - Banner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &25282297319547039
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25282297319547038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -4}
+  m_SizeDelta: {x: 486, y: 76}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &25282297319547035
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25282297319547038}
+  m_CullTransparentMesh: 0
+--- !u!114 &25282297319547034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25282297319547038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ae8dcee57c32a44ec83fc21ed804b026, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &25282297319547033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25282297319547038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 25282297319547034}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 25282297319547032}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnClickBanner
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &25282297319547032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25282297319547038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a2cd8fd852a41008199efa6c5bc831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherGames:
+  - sprite: {fileID: 21300000, guid: 154931b26a6144ea6b37d65da4bc9b24, type: 3}
+    gameID: 2
+    address_aos: http://onelink.to/toybearsweetpop
+    address_ios: http://onelink.to/toybearsweetpop
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 4353a0ec60ac0443794809f9cc65a3e1, type: 3}
+    gameID: 3
+    address_aos: http://onelink.to/sweetfruitpop
+    address_ios: http://onelink.to/sweetfruitpop
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 260dd054001b6490582df3cb4888983e, type: 3}
+    gameID: 4
+    address_aos: http://onelink.to/sweetcandypop
+    address_ios: http://onelink.to/sweetcandypop
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: fd96dbc43190a4750853999cd8492584, type: 3}
+    gameID: 5
+    address_aos: market://details?id=com.dodamgames.aos.gardenblast
+    address_ios: itms-apps://itunes.apple.com/app/1471070072
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: e21584927a5b84d058a3591acda28b3e, type: 3}
+    gameID: 6
+    address_aos: market://details?id=com.dodamgames.aos.jewelsblast
+    address_ios: itms-apps://itunes.apple.com/app/1481031641
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 0f97b98df19f1499a9f1b6d512d3b0c5, type: 3}
+    gameID: 7
+    address_aos: http://onelink.to/jewelcityworld
+    address_ios: http://onelink.to/jewelcityworld
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 6391b29057b4045b69e958f487e7d0ab, type: 3}
+    gameID: 8
+    address_aos: http://onelink.to/toyspace
+    address_ios: http://onelink.to/toyspace
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 8ba1b51bc438f4b2aaef0769f832584d, type: 3}
+    gameID: 9
+    address_aos: http://onelink.to/sweetcookie
+    address_ios: http://onelink.to/sweetcookie
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 12f2cf8c9cac84bcaac918582c4a5ddf, type: 3}
+    gameID: 10
+    address_aos: http://onelink.to/jewelscrush
+    address_ios: http://onelink.to/jewelscrush
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 7457fbd815a894c01b83e6ecd8fbd3d8, type: 3}
+    gameID: 12
+    address_aos: http://onelink.to/fruitsfarm
+    address_ios: http://onelink.to/fruitsfarm
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 548d4ba584ca14cc1800d4b1a4e29ac2, type: 3}
+    gameID: 13
+    address_aos: market://details?id=com.dodamgames.aos.bubblepop
+    address_ios: itms-apps://itunes.apple.com/app/1536084159
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 0695bc015ffe4e049b326bc0cf6503a7, type: 3}
+    gameID: 0
+    address_aos: https://play.google.com/store/apps/details?id=com.dodamgames.aos.newdefense
+    address_ios: itms-apps://itunes.apple.com/app/1536084159
+    isShow: 0
+  - sprite: {fileID: 21300000, guid: 91537d2100bc64ead897da12b157248b, type: 3}
+    gameID: 1
+    address_aos: https://play.google.com/store/apps/details?id=com.dodamgames.aos.jewelsfantasy
+    address_ios: https://apps.apple.com/app/jewels-fantasy-quest-temple/id1444705122
+    isShow: 1
+  bannerImage: {fileID: 25282297319547034}
+  myGame: 1

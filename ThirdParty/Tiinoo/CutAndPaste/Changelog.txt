@@ -1,0 +1,14 @@
+Current Version: 1.0.3
+--------------------------------------------------
+
+1.0.3
+- Do some refactorings.
+
+1.0.2
+- All the files are moved into the 'Assets/Tiinoo/CutAndPaste' folder.
+
+1.0.1
+- Rewrite the readme file.
+
+1.0.0
+- Initial Release
